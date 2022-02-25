@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family: acier-bat-gris, sans-serif;
+    src: url(https://use.typekit.net/qcf1dpz.css);
+}
+@font-face {
+    font-family: acier-bat-solid, sans-serif;
+    src: url(https://use.typekit.net/qcf1dpz.css);
+}
+
+*{
+    font-family: acier-bat-solid, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: gray;
+}
+
+.fourths{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-block-end: 5px;
+    height: 850px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.fourths>*{
+    flex-basis: 100%;
+    flex: 1 1 50%;
+}
+
+.outline-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.outline-main>*{
+    flex-basis: 100%;
+}
+
+.third{
+    display: flex;
+    background-color: #EAE7DC;
+    flex-grow: 5;
+    margin: 6px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5em;
+
+}
+
+.info-block{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.info-block>*{
+    flex-basis: 100%;
+}
+
+.images{
+    background-color: #EAE7DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .25em;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.information>*{
+    flex-basis: 100%;
+}
+.information .heading{
+    display: flex;
+    flex: 1 1 17%;
+    background-color: #eae3c9;
+    color:#E85A4F;
+    border-radius: .5em;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.information .description{
+    display: flex;
+    flex: 1 1 77%;
+    background-color: #d8c3a5;
+    margin: 2 px;
+    border-radius: .5em;
+    font-size: large;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name{
+    font-family: acier-bat-gris, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #E85A4F;
+    font-size: x-large;
+}

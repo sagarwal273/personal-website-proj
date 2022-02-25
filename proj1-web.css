@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: acier-bat-gris, sans-serif;
+    src: url(https://use.typekit.net/qcf1dpz.css);
+}
+@font-face {
+    font-family: acier-bat-solid, sans-serif;
+    src: url(https://use.typekit.net/qcf1dpz.css);
+}
+
+*{
+    font-family: acier-bat-solid, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #EAE7DC;
+}
+h1{
+    font-family: acier-bat-gris, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #E85A4F;
+}
+h3{
+    color: #d8c3a5;
+    color: #e98074;
+    color: #8e8d8a;
+}
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+  list-style: none;
+  margin: 0; 
+  background: #E85A4F;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+  background-color: #E85A4F;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border: 5px black;
+}
+
+.main-body>*{
+    flex-basis: 100%;
+    border: 2px black;
+}
+
+.main-body .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1 1 60%;
+}
+
+.main-body .right{
+    display: flex;
+    flex: 1 1 40%;
+    justify-content: center;
+}
